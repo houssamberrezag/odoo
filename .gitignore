@@ -51,3 +51,4 @@ package.json
 /src/
 /addons/*
 !/addons/point_of_sale
+/odoo-config

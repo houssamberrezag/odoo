@@ -387,10 +387,12 @@ td {
     color: white;
 }
 
+
+//redox
 .pos .status-buttons > div {
     display: flex;
     align-items: center;
-    padding: 0 10px; /*$dropdown-item-padding-x * .5*/
+    padding: 0 20px; /*$dropdown-item-padding-x * .5*/
 }
 
 .pos .status-buttons i.fa {
@@ -570,14 +572,14 @@ td {
 .pos .pane-border {
     border-right: solid 3px $gray-300;
 }
-
+//redox au lieu de  max-width: 5s00px; j'ai changer 400px
 .pos .leftpane {
     background: $gray-200;
     height: 100%;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 @media screen and (max-width: 768px) {
@@ -966,18 +968,28 @@ td {
 .pos .breadcrumb:last-child {
     padding-right: 3px;
 }
+
+
+//redox
 .pos .breadcrumb-button {
     display: inline-block;
-    padding: 0 9px;
+    padding: 0 20px;
+   // padding: 0px 63px;
     vertical-align: top;
     color: $primary;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
     max-width: 300px;
     overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
+    margin-top: 2px;
+    margin-bottom: 11px;
+    margin-left: 8px;
+    //redox
+    padding-left: 63px;
+    padding-right: 63px;
 }
 .pos .breadcrumb-button.breadcrumb-home {
     line-height: 50px;
@@ -1089,21 +1101,37 @@ td {
     border-bottom-width: 3px;
     cursor: pointer;
 }
-
+//redox
 .pos .category-simple-button{
     display: inline-block;
     align-items: center;
-    font-size: 12px;
+    font-size: 15px;
+    margin-left: 3px;
+    border-radius: 5px;
     font-weight: bold;
-    padding: 5px 12px;
+    padding: 5px 4px;
     cursor: pointer;
     text-align: left;
-    background: #fff;
+    background: #9cc7bb;
     max-width: 300px;
     vertical-align: middle;
     white-space: nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+//redox
+.breadcrumb-button
+{
+    background: #9cc7bb;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
 }
 
 .pos .category-simple-button:before {
@@ -1192,6 +1220,7 @@ td {
     color: $o-brand-odoo;
     padding: 2px 5px;
     font-weight: bold;
+    font-size: 15px;
     padding: 0 map-get($spacers, 2) map-get($spacers, 2);
 }
 
@@ -1218,9 +1247,12 @@ td {
     background-color: #595b79;
 }
 
+//redox
 .pos .product .product-name {
     box-sizing: border-box;
-    line-height: 14px;
+    line-height: 11px;
+    font-size: 14px;
+    font-weight: bold;
     overflow: hidden;
     margin: map-get($spacers, 2);
     display: -webkit-box;
@@ -2774,10 +2806,12 @@ td {
 }
 .pos .popup.popup-selection .selection-item {
     width: auto;
-    background: rgb(230,230,230);
+    background: #ddffe6;
     cursor: pointer;
     text-align: left;
-    padding: 0px 16px;
+    padding: 6px 191px;
+    margin-top: 11px;
+    height: 57px;
 }
 .pos .popup.popup-selection .selection-item:nth-child(odd) {
     background: rgb(247,247,247);
@@ -2809,11 +2843,13 @@ td {
 {
     margin-bottom: 20px;
 }
+
+//redox
 .pos .popup-numpad .input-button,
 .pos .popup-numpad .mode-button {
     background: none;
-    height: 50px;
-    width: 50px;
+    height: 61px;
+    width: 55px;
     padding: 0;
     border-radius: 25px;
     margin: 4px;
@@ -2827,8 +2863,9 @@ td {
     border-color: #444;
 }
 
+//redox
 .pos .popup.popup-password {
-    width: 254px;
+    width: 500px;
     height: 510px;
 }
 .pos .popup-password .mode-button.add,
@@ -3199,11 +3236,12 @@ td {
     background-color:  $primary;
 }
 
+//redox
 .pos .orders .col {
     display: flex;
     justify-content: space-between;
     flex: 1;
-    padding: 10px;
+    padding: 35px;
 }
 
 @media screen and (min-width: 768px) {
@@ -3415,8 +3453,10 @@ td {
     align-items: center;
 }
 
+//redox
 .ticket-screen .filter ul.options li.indented {
     text-indent: 1em;
+    padding: 15px;
 }
 
 .ticket-screen .pos-search-bar .filter ul.options li:hover {
@@ -3510,6 +3550,7 @@ td {
 .pos .products-widget .search-bar-container {
     position: sticky;
     right: 0;
+    
 }
 
 .pos .rightpane-header .pos-search-bar,
@@ -3565,8 +3606,7 @@ td {
 /* Product Screen Search Bar */
 
 .pos .search-bar-container.sb-product {
-    width: 75%;
-    max-width: 250px;
+    max-width: 2s50px;
     justify-content: flex-start;
     height: 100%;
     min-height: 48px;

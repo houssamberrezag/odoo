@@ -1853,3 +1853,603 @@ psycopg2.errors.LockNotAvailable: ERREUR:  annulation de la requête à cause du d
 2024-11-16 18:38:01,413 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
 2024-11-16 18:38:05,472 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
 2024-11-16 18:40:10,189 1380 INFO ? werkzeug: 127.0.0.1 - - [16/Nov/2024 18:40:10] "GET /web HTTP/1.1" 303 - 2 0.021 0.138
+2024-11-16 18:44:11,645 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-16 18:44:11,653 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-16 21:14:09,704 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-11-16 21:14:09,732 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-11-16 21:14:09,734 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-11-16 21:14:09,750 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-11-16 21:14:09,778 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-11-16 21:14:09,800 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-11-16 21:14:09,818 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-11-16 21:14:09,825 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-11-16 21:14:09,850 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-11-16 21:14:09,855 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2024-11-16 21:14:09,883 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-11-16 21:14:09,947 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-16 21:14:10,015 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-16 21:14:10,090 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2024-11-16 21:14:10,281 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2024-11-16 21:14:10,310 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-16 21:14:10,325 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-16 21:14:10,352 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-11-16 21:14:10,371 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-11-16 21:14:10,400 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-11-16 21:14:10,422 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-11-16 21:14:10,450 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-11-16 21:14:10,471 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-11-16 21:14:10,499 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-11-16 21:14:10,522 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-11-16 21:14:10,561 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-11-16 21:14:10,594 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-11-16 21:14:10,632 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2024-11-16 21:14:10,658 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `Digest Emails` done. 
+2024-11-16 21:14:10,959 1380 INFO pharmacie2 werkzeug: 127.0.0.1 - - [16/Nov/2024 21:14:10] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.043
+2024-11-16 21:14:10,987 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Digest Emails` done. 
+2024-11-16 21:18:10,706 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-16 21:18:10,709 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-16 21:24:10,781 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-16 21:24:10,795 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-16 21:28:10,906 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-16 21:28:10,910 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-16 21:34:10,984 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-16 21:34:10,987 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-16 21:38:11,070 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-11-16 21:38:11,075 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-11-16 21:38:11,082 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-11-16 21:38:11,084 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-11-16 21:38:11,090 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-11-16 21:38:11,093 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-11-16 21:38:11,098 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-16 21:38:11,101 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-16 21:38:11,106 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-11-16 21:38:11,109 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-11-16 21:38:11,114 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-11-16 21:38:11,116 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-11-16 21:44:11,187 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-16 21:44:11,192 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-16 21:48:11,241 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-16 21:48:11,244 1380 INFO pharmacie odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-16 21:54:11,337 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-16 21:54:11,339 1380 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 10:32:04,930 15480 INFO ? odoo: Odoo version 16.0 
+2024-11-17 10:32:04,931 15480 INFO ? odoo: Using configuration file at D:\opt\odoo\odoo-config\odoo.conf 
+2024-11-17 10:32:04,931 15480 INFO ? odoo: addons paths: ['D:\\opt\\odoo\\odoo\\addons', 'c:\\users\\hp\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'd:\\opt\\odoo\\addons', 'd:\\opt\\odoo\\odoo\\addons'] 
+2024-11-17 10:32:04,931 15480 INFO ? odoo: database: admin@localhost:5432 
+2024-11-17 10:32:05,231 15480 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-11-17 10:32:05,835 15480 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-R4S48H9:8069 
+2024-11-17 10:32:15,180 15480 INFO pharmacie2 odoo.modules.loading: loading 1 modules... 
+2024-11-17 10:32:15,198 15480 INFO pharmacie2 odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-11-17 10:32:16,763 15480 INFO pharmacie2 odoo.modules.loading: loading 52 modules... 
+2024-11-17 10:32:20,476 15480 INFO pharmacie2 odoo.modules.loading: 52 modules loaded in 3.71s, 0 queries (+0 extra) 
+2024-11-17 10:32:20,809 15480 INFO pharmacie2 odoo.modules.loading: Modules loaded. 
+2024-11-17 10:32:20,826 15480 INFO pharmacie2 odoo.modules.registry: Registry loaded in 5.816s 
+2024-11-17 10:32:20,829 15480 INFO pharmacie2 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-11-17 10:32:21,239 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:21] "GET / HTTP/1.1" 303 - 23 0.197 6.034
+2024-11-17 10:32:29,452 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:29] "GET /web HTTP/1.1" 200 - 88 0.189 8.011
+2024-11-17 10:32:30,920 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:30] "POST /mail/init_messaging HTTP/1.1" 200 - 54 0.156 0.135
+2024-11-17 10:32:30,959 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:30] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.024 0.164
+2024-11-17 10:32:30,998 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:30] "POST /mail/load_message_failures HTTP/1.1" 200 - 4 0.004 0.005
+2024-11-17 10:32:31,039 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:31] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.045 0.170
+2024-11-17 10:32:31,083 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:31] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 4 0.002 0.011
+2024-11-17 10:32:31,097 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:31] "GET /websocket HTTP/1.1" 101 - 1 0.003 0.013
+2024-11-17 10:32:31,127 15480 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-11-17 10:32:41,274 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:41] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.020 10.519
+2024-11-17 10:32:41,324 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:41] "POST /web/action/load HTTP/1.1" 200 - 8 0.031 10.531
+2024-11-17 10:32:41,329 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:41] "GET /web/assets/115-0627e5a/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.014 11.678
+2024-11-17 10:32:41,344 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:41] "GET /web/assets/111-19b3b3b/web.assets_common.min.css HTTP/1.1" 200 - 4 0.007 11.772
+2024-11-17 10:32:41,366 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:41] "GET /web/webclient/locale/fr_FR HTTP/1.1" 200 - 1 0.004 10.737
+2024-11-17 10:32:41,437 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:41] "GET /web/image/mail.channel/1/avatar_128?unique=72e0a0c783f0c2645290ef7be395774d91ae8927e29cde859f7eda82accec51f2b3124586f4ea2c7b264d9abb551641c8bb1055d88e53df3868be639d5958844 HTTP/1.1" 200 - 9 0.019 0.016
+2024-11-17 10:32:41,440 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:41] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.065 0.005
+2024-11-17 10:32:41,451 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:41] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.020 0.027
+2024-11-17 10:32:41,480 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:41] "GET /web/assets/114-bcb03de/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.017 11.823
+2024-11-17 10:32:41,572 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:41] "GET /web/assets/113-19b3b3b/web.assets_common.min.js HTTP/1.1" 200 - 4 0.021 11.917
+2024-11-17 10:32:46,149 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:46] "POST /web/action/load HTTP/1.1" 200 - 11 0.028 0.029
+2024-11-17 10:32:46,361 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:46] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.111 0.082
+2024-11-17 10:32:46,437 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:46] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.008 0.018
+2024-11-17 10:32:46,606 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.147 0.055
+2024-11-17 10:32:47,132 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.019
+2024-11-17 10:32:47,142 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.050
+2024-11-17 10:32:47,144 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.054
+2024-11-17 10:32:47,158 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.058
+2024-11-17 10:32:47,163 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.056
+2024-11-17 10:32:47,164 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.070
+2024-11-17 10:32:47,203 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.082
+2024-11-17 10:32:47,208 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.074
+2024-11-17 10:32:47,218 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.072
+2024-11-17 10:32:47,227 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.067
+2024-11-17 10:32:47,236 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.067
+2024-11-17 10:32:47,255 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.067
+2024-11-17 10:32:47,265 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.084
+2024-11-17 10:32:47,301 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.082
+2024-11-17 10:32:47,306 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.107
+2024-11-17 10:32:47,318 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.080
+2024-11-17 10:32:47,322 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.117
+2024-11-17 10:32:47,336 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.082
+2024-11-17 10:32:47,340 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.071
+2024-11-17 10:32:47,344 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.070
+2024-11-17 10:32:47,351 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.071
+2024-11-17 10:32:47,373 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.074
+2024-11-17 10:32:47,385 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.066
+2024-11-17 10:32:47,396 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.066
+2024-11-17 10:32:47,406 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.060
+2024-11-17 10:32:47,406 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.051
+2024-11-17 10:32:47,422 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.056
+2024-11-17 10:32:47,424 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.049
+2024-11-17 10:32:47,429 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.049
+2024-11-17 10:32:47,440 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /note/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.055
+2024-11-17 10:32:47,442 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.043
+2024-11-17 10:32:47,443 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.052
+2024-11-17 10:32:47,450 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.036
+2024-11-17 10:32:47,455 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.026
+2024-11-17 10:32:47,456 15480 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 10:32:47] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.023
+2024-11-17 10:33:05,954 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-11-17 10:33:05,969 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-11-17 10:33:06,014 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 10:33:06,067 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 10:33:06,084 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-11-17 10:33:06,999 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Account: Post draft entries with auto_post enabled and accounting date up to today`. 
+2024-11-17 10:33:07,087 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Account: Post draft entries with auto_post enabled and accounting date up to today` done. 
+2024-11-17 10:33:07,114 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-11-17 10:33:07,135 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-11-17 10:33:07,144 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-11-17 10:33:07,150 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-11-17 10:33:07,159 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-11-17 10:33:07,170 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-11-17 10:33:08,775 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:33:08] "POST /web/action/load HTTP/1.1" 200 - 11 0.057 0.024
+2024-11-17 10:33:08,891 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:33:08] "POST /web/dataset/call_kw/pos.config/get_views HTTP/1.1" 200 - 22 0.025 0.063
+2024-11-17 10:33:09,090 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 10:33:09] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 23 0.131 0.030
+2024-11-17 10:33:10,194 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-11-17 10:34:08,217 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 10:34:08,233 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 10:44:10,369 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 10:44:10,380 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 10:53:27,798 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 10:53:27,802 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 13:02:53,541 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 13:02:53,571 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 13:02:53,573 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-11-17 13:02:53,597 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-11-17 13:02:53,602 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-11-17 13:02:53,630 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-11-17 13:02:53,632 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-11-17 13:02:53,652 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-11-17 13:02:53,663 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-11-17 13:02:53,686 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-11-17 13:02:53,688 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-11-17 13:02:53,718 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-11-17 13:02:54,535 15480 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:02:54] "GET /websocket HTTP/1.1" 101 - 1 0.002 0.022
+2024-11-17 13:03:53,728 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 13:03:53,741 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 13:03:53,760 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-11-17 13:03:53,783 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-11-17 13:03:53,792 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-11-17 13:03:53,798 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-11-17 13:03:53,807 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-11-17 13:03:53,813 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-11-17 13:03:53,820 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-11-17 13:03:53,827 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-11-17 13:03:53,835 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-11-17 13:03:53,847 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-11-17 13:13:53,948 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 13:13:53,955 15480 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 13:22:43,965 15480 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-17 13:22:43,965 15480 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-17 13:24:05,490 14628 INFO ? odoo: Odoo version 16.0 
+2024-11-17 13:24:05,491 14628 INFO ? odoo: Using configuration file at D:\opt\odoo\odoo-config\odoo.conf 
+2024-11-17 13:24:05,491 14628 INFO ? odoo: addons paths: ['D:\\opt\\odoo\\odoo\\addons', 'c:\\users\\hp\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'd:\\opt\\odoo\\addons', 'd:\\opt\\odoo\\odoo\\addons'] 
+2024-11-17 13:24:05,491 14628 INFO ? odoo: database: admin@localhost:5432 
+2024-11-17 13:24:05,844 14628 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-11-17 13:24:06,464 14628 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-R4S48H9:8069 
+2024-11-17 13:24:06,906 14628 INFO pharmacie2 odoo.modules.loading: loading 1 modules... 
+2024-11-17 13:24:06,916 14628 INFO pharmacie2 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-11-17 13:24:07,109 14628 INFO pharmacie2 odoo.modules.loading: loading 52 modules... 
+2024-11-17 13:24:10,920 14628 INFO pharmacie2 odoo.modules.loading: 52 modules loaded in 3.81s, 0 queries (+0 extra) 
+2024-11-17 13:24:11,159 14628 INFO pharmacie2 odoo.modules.loading: Modules loaded. 
+2024-11-17 13:24:11,172 14628 INFO pharmacie2 odoo.modules.registry: Registry loaded in 4.390s 
+2024-11-17 13:24:11,270 14628 INFO pharmacie2 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-11-17 13:24:11,336 14628 INFO pharmacie2 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-11-17 13:24:11,805 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:11] "GET /websocket HTTP/1.1" 101 - 6 0.092 2.951
+2024-11-17 13:24:11,848 14628 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-11-17 13:24:16,476 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-b55255a/web.assets_backend.min.css 
+2024-11-17 13:24:26,904 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [112] (from bundle web.assets_backend) 
+2024-11-17 13:24:27,922 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-b55255a/web.assets_backend.min.js 
+2024-11-17 13:24:56,077 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [114] (from bundle web.assets_backend) 
+2024-11-17 13:24:56,233 14628 INFO pharmacie2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-11-17 13:24:56,293 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:56] "GET /web HTTP/1.1" 200 - 151 0.469 49.045
+2024-11-17 13:24:57,767 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:57] "GET /web/assets/116-b55255a/web.assets_backend.min.css HTTP/1.1" 200 - 6 0.003 1.276
+2024-11-17 13:24:57,774 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:57] "GET /web/assets/117-b55255a/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.010 1.269
+2024-11-17 13:24:57,818 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:57] "GET /web/webclient/translations/e94f3b0a3f42122c09843e87ee578c44acb25328?lang=fr_FR HTTP/1.1" 200 - 2 0.002 0.015
+2024-11-17 13:24:57,836 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:57] "GET /web/assets/117-b55255a/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.011 0.007
+2024-11-17 13:24:58,676 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:58] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.002 0.006
+2024-11-17 13:24:58,699 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:58] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.012
+2024-11-17 13:24:58,701 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:58] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2024-11-17 13:24:58,706 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:58] "POST /web/action/load HTTP/1.1" 200 - 12 0.036 0.008
+2024-11-17 13:24:59,539 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:59] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.011 0.008
+2024-11-17 13:24:59,551 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:59] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.146 0.045
+2024-11-17 13:24:59,660 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:59] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.062 0.020
+2024-11-17 13:24:59,703 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:59] "POST /web/dataset/call_kw/pos.config/get_views HTTP/1.1" 200 - 32 0.060 0.062
+2024-11-17 13:24:59,715 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:59] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.045 0.018
+2024-11-17 13:24:59,841 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:24:59] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 23 0.033 0.018
+2024-11-17 13:25:06,669 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 13:25:06,687 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 13:25:06,976 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:06] "GET /web HTTP/1.1" 200 - 67 0.066 2.170
+2024-11-17 13:25:07,168 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:07] "GET /web/assets/111-19b3b3b/web.assets_common.min.css HTTP/1.1" 200 - 4 0.007 0.090
+2024-11-17 13:25:07,168 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:07] "GET /web/assets/116-b55255a/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.015 0.071
+2024-11-17 13:25:07,182 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:07] "GET /web/assets/117-b55255a/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.006 0.088
+2024-11-17 13:25:07,183 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:07] "GET /web/assets/115-0627e5a/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.005 0.085
+2024-11-17 13:25:07,188 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:07] "GET /web/assets/113-19b3b3b/web.assets_common.min.js HTTP/1.1" 200 - 4 0.019 0.085
+2024-11-17 13:25:07,270 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:07] "GET /web/webclient/load_menus/0d4ca6e06d64e0f8e427b431894eed63e7913da3d5772e940a1668d19820a136 HTTP/1.1" 200 - 1 0.001 0.007
+2024-11-17 13:25:07,299 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:07] "GET /web/webclient/translations/e94f3b0a3f42122c09843e87ee578c44acb25328?lang=fr_FR HTTP/1.1" 200 - 2 0.002 0.031
+2024-11-17 13:25:08,554 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:08] "GET /web/webclient/translations/e94f3b0a3f42122c09843e87ee578c44acb25328?lang=fr_FR HTTP/1.1" 200 - 2 0.012 0.033
+2024-11-17 13:25:08,555 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:08] "GET /web/webclient/translations/e94f3b0a3f42122c09843e87ee578c44acb25328?lang=fr_FR HTTP/1.1" 200 - 2 0.015 0.021
+2024-11-17 13:25:08,671 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:08] "GET /web/static/img/mobile-icons/android-192x192.png HTTP/1.1" 200 - 0 0.000 0.062
+2024-11-17 13:25:08,675 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:08] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.063
+2024-11-17 13:25:08,874 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:08] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.008 0.013
+2024-11-17 13:25:08,879 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:08] "POST /web/action/load HTTP/1.1" 200 - 10 0.044 0.012
+2024-11-17 13:25:08,970 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:08] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.005 0.010
+2024-11-17 13:25:08,971 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:08] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.002 0.007
+2024-11-17 13:25:09,016 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:09] "POST /mail/init_messaging HTTP/1.1" 200 - 30 0.156 0.032
+2024-11-17 13:25:09,052 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:09] "POST /web/dataset/call_kw/pos.config/get_views HTTP/1.1" 200 - 2 0.006 0.018
+2024-11-17 13:25:09,063 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:09] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.017
+2024-11-17 13:25:09,078 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:09] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 8 0.040 0.015
+2024-11-17 13:25:09,087 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:09] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.004 0.011
+2024-11-17 13:25:09,122 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:09] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 10 0.008 0.012
+2024-11-17 13:25:14,286 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:14] "POST /web/action/load HTTP/1.1" 200 - 15 0.068 0.702
+2024-11-17 13:25:14,653 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:14] "POST /web/dataset/call_kw/product.template/get_views HTTP/1.1" 200 - 71 0.207 0.130
+2024-11-17 13:25:14,719 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:14] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 6 0.009 0.011
+2024-11-17 13:25:15,385 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:15] "GET /web/static/img/smiling_face.svg HTTP/1.1" 200 - 0 0.000 0.077
+2024-11-17 13:25:15,461 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:15] "GET /web/image?model=product.template&field=image_128&id=2&unique=1731810314000 HTTP/1.1" 200 - 9 0.032 0.113
+2024-11-17 13:25:15,461 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:15] "GET /web/image?model=product.template&field=image_128&id=1&unique=1734197114000 HTTP/1.1" 200 - 9 0.055 0.094
+2024-11-17 13:25:15,462 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:15] "GET /web/image?model=product.template&field=image_128&id=3&unique=1731846314000 HTTP/1.1" 200 - 5 0.018 0.125
+2024-11-17 13:25:15,463 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:15] "GET /web/image?model=product.template&field=image_128&id=5&unique=1731633914000 HTTP/1.1" 200 - 5 0.012 0.120
+2024-11-17 13:25:15,464 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:15] "GET /web/image?model=product.template&field=image_128&id=4&unique=1731893114000 HTTP/1.1" 200 - 6 0.015 0.125
+2024-11-17 13:25:15,503 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:15] "GET /web/image?model=product.template&field=image_128&id=6&unique=1730975114000 HTTP/1.1" 200 - 5 0.009 0.102
+2024-11-17 13:25:15,511 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:15] "GET /web/image?model=product.template&field=image_128&id=7&unique=1733898314000 HTTP/1.1" 200 - 5 0.004 0.039
+2024-11-17 13:25:15,516 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:15] "GET /web/image?model=product.template&field=image_128&id=8&unique=1731475514000 HTTP/1.1" 200 - 5 0.004 0.040
+2024-11-17 13:25:15,519 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:15] "GET /web/image?model=product.template&field=image_128&id=10&unique=1731173114000 HTTP/1.1" 200 - 5 0.006 0.035
+2024-11-17 13:25:15,520 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:15] "GET /web/image?model=product.template&field=image_128&id=9&unique=1729452314000 HTTP/1.1" 200 - 5 0.008 0.039
+2024-11-17 13:25:19,771 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:19] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 37 0.107 0.067
+2024-11-17 13:25:19,829 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:19] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 8 0.022 0.012
+2024-11-17 13:25:19,836 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:19] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 6 0.032 0.012
+2024-11-17 13:25:19,856 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:19] "POST /web/dataset/call_kw/stock.route/name_search HTTP/1.1" 200 - 2 0.002 0.005
+2024-11-17 13:25:20,482 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-28a9af8/web_editor.assets_wysiwyg.min.css 
+2024-11-17 13:25:21,915 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-28a9af8/web_editor.assets_wysiwyg.min.js 
+2024-11-17 13:25:24,241 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:24] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 19 0.054 0.027
+2024-11-17 13:25:24,268 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:24] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.002 0.011
+2024-11-17 13:25:24,276 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:24] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.003 0.011
+2024-11-17 13:25:24,285 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:24] "GET /web/bundle/web_editor.assets_wysiwyg?lang=fr_FR HTTP/1.1" 200 - 21 0.076 4.204
+2024-11-17 13:25:24,310 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:24] "POST /web/dataset/call_kw/stock.route/name_search HTTP/1.1" 200 - 2 0.007 0.009
+2024-11-17 13:25:24,347 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:24] "GET /web/assets/118-28a9af8/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 4 0.006 0.038
+2024-11-17 13:25:25,209 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:25] "GET /web/assets/119-28a9af8/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 4 0.004 0.900
+2024-11-17 13:25:25,234 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:25] "GET /web/assets/119-28a9af8/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 4 0.001 0.006
+2024-11-17 13:25:25,873 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:25] "GET /web/static/img/placeholder.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-11-17 13:25:25,914 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:25:25] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 200 - 6 0.036 0.013
+2024-11-17 13:30:24,309 14628 INFO pharmacie2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-11-17 13:30:24,311 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:24] "POST /web/dataset/call_kw/product.template/create HTTP/1.1" 200 - 68 0.307 0.102
+2024-11-17 13:30:24,860 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:24] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 118 0.435 0.098
+2024-11-17 13:30:24,911 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:24] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 8 0.009 0.019
+2024-11-17 13:30:24,911 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:24] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 8 0.010 0.016
+2024-11-17 13:30:25,084 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:25] "POST /mail/thread/data HTTP/1.1" 200 - 24 0.088 0.033
+2024-11-17 13:30:25,117 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:25] "POST /mail/thread/messages HTTP/1.1" 200 - 27 0.124 0.034
+2024-11-17 13:30:32,338 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:32] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 8 0.017 0.199
+2024-11-17 13:30:32,391 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:32] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.014 0.012
+2024-11-17 13:30:32,424 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:32] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.039 0.018
+2024-11-17 13:30:34,973 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:34] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.013 0.023
+2024-11-17 13:30:35,006 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:35] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.021 0.033
+2024-11-17 13:30:35,069 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:35] "POST /web/dataset/call_kw/product.template/write HTTP/1.1" 200 - 24 0.066 0.047
+2024-11-17 13:30:35,326 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:35] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 48 0.194 0.049
+2024-11-17 13:30:35,355 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:35] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.003 0.008
+2024-11-17 13:30:35,365 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:35] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.002 0.010
+2024-11-17 13:30:35,431 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:35] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.012 0.027
+2024-11-17 13:30:35,495 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:35] "POST /mail/thread/messages HTTP/1.1" 200 - 21 0.085 0.022
+2024-11-17 13:30:37,021 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:37] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.014 0.025
+2024-11-17 13:30:37,056 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:37] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.017 0.026
+2024-11-17 13:30:37,064 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:37] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.053 0.025
+2024-11-17 13:30:37,123 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:37] "POST /web/dataset/call_button HTTP/1.1" 200 - 18 0.048 0.075
+2024-11-17 13:30:37,166 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:37] "POST /web/dataset/call_kw/stock.change.product.qty/get_views HTTP/1.1" 200 - 9 0.013 0.018
+2024-11-17 13:30:37,252 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:37] "POST /web/dataset/call_kw/stock.change.product.qty/onchange HTTP/1.1" 200 - 18 0.020 0.024
+2024-11-17 13:30:37,322 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:37] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.006 0.012
+2024-11-17 13:30:37,392 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:37] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.054 0.030
+2024-11-17 13:30:41,981 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:41] "POST /web/dataset/call_kw/stock.change.product.qty/create HTTP/1.1" 200 - 4 0.011 0.036
+2024-11-17 13:30:42,031 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:42] "POST /web/dataset/call_kw/stock.change.product.qty/read HTTP/1.1" 200 - 8 0.016 0.017
+2024-11-17 13:30:42,394 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:42] "POST /web/dataset/call_button HTTP/1.1" 200 - 79 0.218 0.128
+2024-11-17 13:30:42,550 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:42] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 48 0.059 0.078
+2024-11-17 13:30:42,586 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:42] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.003 0.013
+2024-11-17 13:30:42,591 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:42] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.004 0.013
+2024-11-17 13:30:42,645 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:42] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.012 0.012
+2024-11-17 13:30:42,690 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:42] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.042 0.022
+2024-11-17 13:30:47,790 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:47] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.009 0.016
+2024-11-17 13:30:47,849 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:47] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.032 0.037
+2024-11-17 13:30:47,850 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:47] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.034 0.045
+2024-11-17 13:30:47,861 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:47] "POST /web/dataset/call_button HTTP/1.1" 200 - 11 0.043 0.044
+2024-11-17 13:30:47,905 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:47] "POST /web/dataset/call_kw/product.label.layout/get_views HTTP/1.1" 200 - 9 0.014 0.016
+2024-11-17 13:30:47,939 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:47] "POST /web/dataset/call_kw/product.label.layout/onchange HTTP/1.1" 200 - 3 0.002 0.007
+2024-11-17 13:30:48,054 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:48] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.008 0.012
+2024-11-17 13:30:48,080 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:48] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.016 0.026
+2024-11-17 13:30:53,130 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:53] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 48 0.133 0.062
+2024-11-17 13:30:53,155 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:53] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.002 0.010
+2024-11-17 13:30:53,155 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:53] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.003 0.007
+2024-11-17 13:30:53,196 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:53] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.008 0.011
+2024-11-17 13:30:53,212 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:53] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.010 0.024
+2024-11-17 13:30:58,076 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:58] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.016 0.028
+2024-11-17 13:30:58,094 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:30:58] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.053 0.013
+2024-11-17 13:31:03,926 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:03] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.009 0.021
+2024-11-17 13:31:03,955 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:03] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.023 0.030
+2024-11-17 13:31:03,978 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:03] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.024 0.031
+2024-11-17 13:31:04,136 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:04] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.010 0.017
+2024-11-17 13:31:04,174 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:04] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.025 0.035
+2024-11-17 13:31:04,239 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:04] "POST /web/dataset/call_kw/product.template/write HTTP/1.1" 200 - 16 0.085 0.037
+2024-11-17 13:31:04,476 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:04] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 48 0.153 0.070
+2024-11-17 13:31:04,529 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:04] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.006 0.018
+2024-11-17 13:31:04,532 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:04] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.006 0.018
+2024-11-17 13:31:04,596 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:04] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.009 0.014
+2024-11-17 13:31:04,625 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:04] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.020 0.031
+2024-11-17 13:31:05,997 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:05] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.007 0.021
+2024-11-17 13:31:06,034 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:06] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.028 0.033
+2024-11-17 13:31:06,060 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:06] "POST /web/dataset/call_button HTTP/1.1" 200 - 9 0.041 0.033
+2024-11-17 13:31:06,062 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:06] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.021 0.038
+2024-11-17 13:31:06,096 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:06] "POST /web/dataset/call_kw/product.label.layout/onchange HTTP/1.1" 200 - 2 0.002 0.006
+2024-11-17 13:31:06,168 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:06] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.006 0.009
+2024-11-17 13:31:06,187 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:06] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.014 0.018
+2024-11-17 13:31:11,067 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:11] "POST /web/dataset/call_kw/product.label.layout/create HTTP/1.1" 200 - 5 0.064 0.015
+2024-11-17 13:31:11,133 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:11] "POST /web/dataset/call_kw/product.label.layout/read HTTP/1.1" 200 - 6 0.037 0.013
+2024-11-17 13:31:11,202 14628 WARNING pharmacie2 odoo.addons.web.controllers.utils: Action "Configurer l'agencement de votre document" contains custom properties 'close_on_report_download'. Passing them via the `params` or `context` properties is recommended instead 
+2024-11-17 13:31:11,204 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:11] "POST /web/dataset/call_button HTTP/1.1" 200 - 19 0.029 0.026
+2024-11-17 13:31:11,254 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:11] "POST /web/dataset/call_kw/base.document.layout/get_views HTTP/1.1" 200 - 11 0.014 0.023
+2024-11-17 13:31:11,738 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-be567aa/web.report_assets_common.min.css 
+2024-11-17 13:31:18,490 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:18] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.051
+2024-11-17 13:31:18,857 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:18] "POST /web/dataset/call_kw/base.document.layout/onchange HTTP/1.1" 200 - 72 0.122 7.451
+2024-11-17 13:31:18,885 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:18] "POST /web/dataset/call_kw/report.layout/search_read HTTP/1.1" 200 - 3 0.006 0.008
+2024-11-17 13:31:18,892 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:18] "POST /web/dataset/call_kw/report.paperformat/name_search HTTP/1.1" 200 - 4 0.006 0.013
+2024-11-17 13:31:19,000 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:18] "GET /web/assets/120-be567aa/web.report_assets_common.min.css HTTP/1.1" 200 - 4 0.003 0.030
+2024-11-17 13:31:19,562 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:19] "GET /web/static/fonts/lato/Lato-Reg-webfont.woff HTTP/1.1" 200 - 0 0.000 0.028
+2024-11-17 13:31:19,563 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:19] "GET /web/static/fonts/lato/Lato-Bol-webfont.woff HTTP/1.1" 200 - 0 0.000 0.025
+2024-11-17 13:31:29,981 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:29] "POST /web/dataset/call_kw/base.document.layout/onchange HTTP/1.1" 200 - 8 0.013 0.048
+2024-11-17 13:31:31,340 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:31] "POST /web/dataset/call_kw/base.document.layout/onchange HTTP/1.1" 200 - 8 0.020 0.051
+2024-11-17 13:31:33,682 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:33] "POST /web/dataset/call_kw/base.document.layout/onchange HTTP/1.1" 200 - 8 0.011 0.056
+2024-11-17 13:31:44,567 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:44] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 48 0.063 0.078
+2024-11-17 13:31:44,603 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:44] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.006 0.008
+2024-11-17 13:31:44,611 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:44] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.009 0.011
+2024-11-17 13:31:44,667 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:44] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.008 0.013
+2024-11-17 13:31:44,686 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:44] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.016 0.021
+2024-11-17 13:31:51,598 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:51] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.010 0.021
+2024-11-17 13:31:51,632 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:51] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.029 0.034
+2024-11-17 13:31:51,672 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:51] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 23 0.044 0.055
+2024-11-17 13:31:51,717 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:51] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.007 0.013
+2024-11-17 13:31:51,718 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:51] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.006 0.011
+2024-11-17 13:31:51,746 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:31:51] "POST /web/dataset/call_kw/stock.route/name_search HTTP/1.1" 200 - 2 0.001 0.008
+2024-11-17 13:32:08,013 14628 INFO pharmacie2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-11-17 13:32:08,017 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:08] "POST /web/dataset/call_kw/product.template/create HTTP/1.1" 200 - 61 0.153 0.121
+2024-11-17 13:32:08,266 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:08] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 118 0.130 0.100
+2024-11-17 13:32:08,308 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:08] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 8 0.009 0.015
+2024-11-17 13:32:08,309 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:08] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 8 0.007 0.016
+2024-11-17 13:32:08,451 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:08] "POST /mail/thread/data HTTP/1.1" 200 - 24 0.053 0.040
+2024-11-17 13:32:08,470 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:08] "POST /mail/thread/messages HTTP/1.1" 200 - 27 0.084 0.032
+2024-11-17 13:32:10,959 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:10] "POST /web/dataset/call_kw/product.template/onchange HTTP/1.1" 200 - 8 0.007 0.023
+2024-11-17 13:32:11,009 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:11] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.009 0.013
+2024-11-17 13:32:11,034 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:11] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.019 0.026
+2024-11-17 13:32:12,365 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:12] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.010 0.016
+2024-11-17 13:32:12,412 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:12] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.024 0.033
+2024-11-17 13:32:12,509 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:12] "POST /web/dataset/call_kw/product.template/write HTTP/1.1" 200 - 24 0.079 0.069
+2024-11-17 13:32:12,883 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:12] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 48 0.285 0.074
+2024-11-17 13:32:12,921 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:12] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.003 0.015
+2024-11-17 13:32:12,926 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:12] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.003 0.016
+2024-11-17 13:32:13,006 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:13] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.015 0.027
+2024-11-17 13:32:13,034 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:13] "POST /mail/thread/messages HTTP/1.1" 200 - 21 0.037 0.035
+2024-11-17 13:32:13,400 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:13] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.010 0.021
+2024-11-17 13:32:13,437 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:13] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.032 0.033
+2024-11-17 13:32:13,455 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:13] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.033 0.042
+2024-11-17 13:32:13,471 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:13] "POST /web/dataset/call_button HTTP/1.1" 200 - 18 0.042 0.052
+2024-11-17 13:32:13,508 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:13] "POST /web/dataset/call_kw/stock.change.product.qty/get_views HTTP/1.1" 200 - 9 0.008 0.015
+2024-11-17 13:32:13,566 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:13] "POST /web/dataset/call_kw/stock.change.product.qty/onchange HTTP/1.1" 200 - 18 0.015 0.016
+2024-11-17 13:32:13,614 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:13] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.006 0.013
+2024-11-17 13:32:13,639 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:13] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.016 0.025
+2024-11-17 13:32:17,888 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:17] "POST /web/dataset/call_kw/stock.change.product.qty/create HTTP/1.1" 200 - 4 0.010 0.059
+2024-11-17 13:32:17,937 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:17] "POST /web/dataset/call_kw/stock.change.product.qty/read HTTP/1.1" 200 - 8 0.014 0.021
+2024-11-17 13:32:18,183 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:18] "POST /web/dataset/call_button HTTP/1.1" 200 - 79 0.109 0.118
+2024-11-17 13:32:18,326 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:18] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 48 0.052 0.073
+2024-11-17 13:32:18,373 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:18] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.005 0.007
+2024-11-17 13:32:18,374 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:18] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.005 0.007
+2024-11-17 13:32:18,427 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:18] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.008 0.011
+2024-11-17 13:32:18,448 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:18] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.010 0.027
+2024-11-17 13:32:26,786 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:26] "POST /web/dataset/call_kw/product.category/name_search HTTP/1.1" 200 - 3 0.004 0.009
+2024-11-17 13:32:32,784 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:32] "POST /web/dataset/call_kw/pos.category/name_search HTTP/1.1" 200 - 3 0.051 0.011
+2024-11-17 13:32:42,904 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:42] "POST /web/dataset/call_kw/account.tax/name_search HTTP/1.1" 200 - 3 0.003 0.013
+2024-11-17 13:32:49,857 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:49] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 200 - 8 0.014 0.025
+2024-11-17 13:32:59,974 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:32:59] "POST /web/dataset/call_kw/pos.config/get_views HTTP/1.1" 200 - 32 0.036 0.056
+2024-11-17 13:33:00,075 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:00] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 23 0.021 0.019
+2024-11-17 13:33:01,545 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:01] "POST /web/dataset/call_kw/web_tour.tour/consume HTTP/1.1" 200 - 3 0.008 0.051
+2024-11-17 13:33:01,683 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:01] "POST /web/dataset/call_button HTTP/1.1" 200 - 44 0.129 0.073
+2024-11-17 13:33:01,988 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-96b921c/point_of_sale.pos_assets_backend_style.min.css 
+2024-11-17 13:33:02,674 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-7d08eec/point_of_sale.assets.min.css 
+2024-11-17 13:33:05,215 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-b19c6cd/point_of_sale.pos_assets_backend.min.js 
+2024-11-17 13:33:09,714 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-7d08eec/point_of_sale.assets.min.js 
+2024-11-17 13:33:13,658 14628 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-a5f7d84/point_of_sale.assets_backend_prod_only.min.js 
+2024-11-17 13:33:13,732 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:13] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 112 0.171 11.846
+2024-11-17 13:33:13,822 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:13] "GET /web/assets/121-96b921c/point_of_sale.pos_assets_backend_style.min.css HTTP/1.1" 200 - 4 0.008 0.029
+2024-11-17 13:33:13,838 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:13] "GET /web/assets/122-7d08eec/point_of_sale.assets.min.css HTTP/1.1" 200 - 4 0.008 0.042
+2024-11-17 13:33:13,854 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:13] "GET /web/assets/125-a5f7d84/point_of_sale.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.002 0.038
+2024-11-17 13:33:13,940 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:13] "GET /web/assets/123-b19c6cd/point_of_sale.pos_assets_backend.min.js HTTP/1.1" 200 - 4 0.007 0.143
+2024-11-17 13:33:14,415 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:14] "GET /web/assets/124-7d08eec/point_of_sale.assets.min.js HTTP/1.1" 200 - 4 0.005 0.613
+2024-11-17 13:33:14,668 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:14] "GET /point_of_sale/static/src/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.013
+2024-11-17 13:33:14,668 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:14] "GET /point_of_sale/static/src/img/touch-icon-196.png HTTP/1.1" 200 - 0 0.000 0.015
+2024-11-17 13:33:14,739 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:14] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.011 0.011
+2024-11-17 13:33:14,798 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:14] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.041
+2024-11-17 13:33:15,034 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 135 0.209 0.141
+2024-11-17 13:33:15,067 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "GET /point_of_sale/static/src/fonts/Inconsolata.otf HTTP/1.1" 200 - 0 0.000 0.010
+2024-11-17 13:33:15,103 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 10 0.016 0.019
+2024-11-17 13:33:15,182 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.004 0.008
+2024-11-17 13:33:15,223 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "POST /web/dataset/call_kw/pos.session/get_pos_ui_product_product_by_params HTTP/1.1" 200 - 3 0.018 0.009
+2024-11-17 13:33:15,268 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.014 0.008
+2024-11-17 13:33:15,299 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.007 0.009
+2024-11-17 13:33:15,392 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 200 - 8 0.011 0.022
+2024-11-17 13:33:15,396 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "GET /point_of_sale/static/src/img/backspace.png HTTP/1.1" 200 - 0 0.000 0.028
+2024-11-17 13:33:15,442 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "GET /web/image?model=product.product&field=image_128&id=4&unique=2024-11-17%2013:32:12 HTTP/1.1" 200 - 6 0.008 0.025
+2024-11-17 13:33:15,443 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "GET /web/image?model=product.product&field=image_128&id=3&unique=2024-11-17%2013:31:04 HTTP/1.1" 200 - 7 0.014 0.020
+2024-11-17 13:33:15,447 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "GET /point_of_sale/static/src/img/bc-arrow-big.png HTTP/1.1" 200 - 0 0.000 0.034
+2024-11-17 13:33:15,449 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "GET /web/static/img/openhand.cur HTTP/1.1" 200 - 0 0.000 0.028
+2024-11-17 13:33:15,462 14628 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:15] "GET /web/static/fonts/lato/Lato-LigIta-webfont.woff HTTP/1.1" 200 - 0 0.000 0.044
+2024-11-17 13:33:18,424 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:18] "POST /web/dataset/call_kw/pos.session/set_cashbox_pos HTTP/1.1" 200 - 14 0.028 0.022
+2024-11-17 13:33:30,526 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:30] "POST /web/dataset/call_kw/pos.session/get_closing_control_data HTTP/1.1" 200 - 13 0.013 0.022
+2024-11-17 13:33:33,878 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:33] "GET /web HTTP/1.1" 200 - 39 0.045 1.630
+2024-11-17 13:33:34,009 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:34] "GET /web/webclient/load_menus/0d4ca6e06d64e0f8e427b431894eed63e7913da3d5772e940a1668d19820a136 HTTP/1.1" 200 - 1 0.002 0.022
+2024-11-17 13:33:35,344 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:35] "POST /mail/init_messaging HTTP/1.1" 200 - 43 0.040 0.039
+2024-11-17 13:33:35,357 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:35] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.003 0.008
+2024-11-17 13:33:35,433 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:35] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.017 0.019
+2024-11-17 13:33:35,435 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:35] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.007 0.024
+2024-11-17 13:33:35,439 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:35] "POST /web/action/load HTTP/1.1" 200 - 10 0.038 0.013
+2024-11-17 13:33:35,450 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:35] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.005 0.018
+2024-11-17 13:33:35,486 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:35] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.014
+2024-11-17 13:33:35,490 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:35] "GET /web HTTP/1.1" 200 - 11 0.007 0.020
+2024-11-17 13:33:36,731 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:36] "POST /mail/init_messaging HTTP/1.1" 200 - 30 0.021 0.027
+2024-11-17 13:33:36,782 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:36] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.001 0.005
+2024-11-17 13:33:36,827 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:36] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.009 0.020
+2024-11-17 13:33:36,832 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:36] "POST /web/action/load HTTP/1.1" 200 - 10 0.014 0.017
+2024-11-17 13:33:36,847 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:36] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.004 0.008
+2024-11-17 13:33:36,857 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:36] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.003 0.010
+2024-11-17 13:33:36,878 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:36] "POST /web/dataset/call_kw/pos.config/get_views HTTP/1.1" 200 - 2 0.009 0.016
+2024-11-17 13:33:36,887 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:36] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.006
+2024-11-17 13:33:36,949 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:36] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 13 0.026 0.019
+2024-11-17 13:33:37,085 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:33:37] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 304 - 8 0.007 0.009
+2024-11-17 13:34:06,925 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 13:34:06,963 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 13:34:33,858 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:33] "POST /web/action/load HTTP/1.1" 200 - 14 0.017 0.023
+2024-11-17 13:34:34,056 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:34] "POST /web/dataset/call_kw/product.template/get_views HTTP/1.1" 200 - 58 0.074 0.104
+2024-11-17 13:34:34,154 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:34] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 18 0.021 0.028
+2024-11-17 13:34:34,317 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:34] "GET /web/image?model=product.template&field=image_128&id=3&unique=1731850264000 HTTP/1.1" 200 - 4 0.008 0.026
+2024-11-17 13:34:34,320 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:34] "GET /web/image?model=product.template&field=image_128&id=4&unique=1731850332000 HTTP/1.1" 200 - 4 0.005 0.027
+2024-11-17 13:34:36,016 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:36] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 48 0.051 0.068
+2024-11-17 13:34:36,058 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:36] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.007 0.008
+2024-11-17 13:34:36,059 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:36] "POST /web/dataset/call_kw/account.tax/read HTTP/1.1" 200 - 3 0.005 0.008
+2024-11-17 13:34:36,086 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:36] "POST /web/dataset/call_kw/stock.route/name_search HTTP/1.1" 200 - 2 0.002 0.008
+2024-11-17 13:34:36,336 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:36] "POST /mail/thread/data HTTP/1.1" 200 - 11 0.022 0.033
+2024-11-17 13:34:36,368 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:36] "POST /mail/thread/messages HTTP/1.1" 200 - 22 0.057 0.032
+2024-11-17 13:34:36,528 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:36] "GET /web/bundle/web_editor.assets_wysiwyg?lang=fr_FR HTTP/1.1" 200 - 11 0.009 0.217
+2024-11-17 13:34:36,713 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:36] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 304 - 6 0.006 0.016
+2024-11-17 13:34:41,554 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:41] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 13 0.014 0.021
+2024-11-17 13:34:43,239 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:43] "POST /web/dataset/call_button HTTP/1.1" 200 - 16 0.032 0.026
+2024-11-17 13:34:43,342 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:43] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 16 0.017 0.053
+2024-11-17 13:34:44,776 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:44] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.003 0.010
+2024-11-17 13:34:44,856 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:44] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.013
+2024-11-17 13:34:45,226 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:45] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 111 0.250 0.178
+2024-11-17 13:34:45,274 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:45] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 304 - 5 0.004 0.012
+2024-11-17 13:34:45,316 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:45] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 2 0.001 0.006
+2024-11-17 13:34:45,351 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:45] "POST /web/dataset/call_kw/pos.session/get_pos_ui_product_product_by_params HTTP/1.1" 200 - 3 0.003 0.008
+2024-11-17 13:34:45,394 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:45] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 3 0.007 0.008
+2024-11-17 13:34:45,425 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:45] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.006 0.007
+2024-11-17 13:34:45,502 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:34:45] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 304 - 8 0.011 0.013
+2024-11-17 13:35:13,096 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:35:13] "POST /web/dataset/call_kw/pos.order/create_from_ui HTTP/1.1" 200 - 49 0.121 0.051
+2024-11-17 13:35:47,994 14628 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 13:35:47] "POST /web/dataset/call_kw/pos.order/create_from_ui HTTP/1.1" 200 - 35 0.096 0.039
+2024-11-17 13:43:30,762 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 13:43:30,782 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 13:53:41,107 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 13:53:41,113 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 14:03:07,388 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-11-17 14:03:07,396 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-11-17 14:03:07,410 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-11-17 14:03:07,429 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-11-17 14:03:51,406 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-11-17 14:03:51,413 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-11-17 14:03:51,474 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-11-17 14:03:51,489 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-11-17 14:03:51,503 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-11-17 14:03:51,524 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-11-17 14:03:51,537 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 14:03:51,544 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 14:14:01,805 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 14:14:01,812 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 14:24:07,660 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 14:24:07,672 14628 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-11-17 14:26:25,348 14628 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-17 14:26:25,349 14628 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-17 14:26:47,418 16184 INFO ? odoo: Odoo version 16.0 
+2024-11-17 14:26:47,418 16184 INFO ? odoo: Using configuration file at D:\opt\odoo\odoo-config\odoo.conf 
+2024-11-17 14:26:47,418 16184 INFO ? odoo: addons paths: ['D:\\opt\\odoo\\odoo\\addons', 'c:\\users\\hp\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'd:\\opt\\odoo\\addons', 'd:\\opt\\odoo\\odoo\\addons'] 
+2024-11-17 14:26:47,418 16184 INFO ? odoo: database: admin@localhost:5432 
+2024-11-17 14:26:47,761 16184 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-11-17 14:26:48,418 16184 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-R4S48H9:8069 
+2024-11-17 14:26:48,731 16184 INFO pharmacie2 odoo.modules.loading: loading 1 modules... 
+2024-11-17 14:26:48,747 16184 INFO pharmacie2 odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-11-17 14:26:48,894 16184 INFO pharmacie2 odoo.modules.loading: loading 52 modules... 
+2024-11-17 14:26:52,054 16184 INFO pharmacie2 odoo.modules.loading: 52 modules loaded in 3.16s, 0 queries (+0 extra) 
+2024-11-17 14:26:52,250 16184 INFO pharmacie2 odoo.modules.loading: Modules loaded. 
+2024-11-17 14:26:52,260 16184 INFO pharmacie2 odoo.modules.registry: Registry loaded in 3.793s 
+2024-11-17 14:26:52,340 16184 INFO pharmacie2 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-11-17 14:26:52,382 16184 INFO pharmacie2 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-11-17 14:26:52,921 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:26:52] "GET /websocket HTTP/1.1" 101 - 22 0.135 4.322
+2024-11-17 14:26:53,027 16184 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-11-17 14:26:57,509 16184 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-b8c76a4/point_of_sale.assets.min.css 
+2024-11-17 14:26:58,702 16184 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [122] (from bundle point_of_sale.assets) 
+2024-11-17 14:27:00,617 16184 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-66d1d39/point_of_sale.pos_assets_backend.min.js 
+2024-11-17 14:27:05,284 16184 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [123] (from bundle point_of_sale.pos_assets_backend) 
+2024-11-17 14:27:05,534 16184 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-b8c76a4/point_of_sale.assets.min.js 
+2024-11-17 14:27:07,283 16184 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [124] (from bundle point_of_sale.assets) 
+2024-11-17 14:27:07,303 16184 INFO pharmacie2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-11-17 14:27:07,305 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:07] "GET /pos/ui?config_id=1 HTTP/1.1" 200 - 150 0.453 14.907
+2024-11-17 14:27:13,551 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:13] "GET /web/assets/121-96b921c/point_of_sale.pos_assets_backend_style.min.css HTTP/1.1" 200 - 4 0.010 6.173
+2024-11-17 14:27:13,562 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:13] "GET /web/assets/127-66d1d39/point_of_sale.pos_assets_backend.min.js HTTP/1.1" 200 - 4 0.017 6.171
+2024-11-17 14:27:13,575 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:13] "GET /web/assets/113-19b3b3b/web.assets_common.min.js HTTP/1.1" 200 - 4 0.006 6.196
+2024-11-17 14:27:13,578 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:13] "GET /web/assets/125-a5f7d84/point_of_sale.assets_backend_prod_only.min.js HTTP/1.1" 200 - 9 0.025 6.174
+2024-11-17 14:27:13,603 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:13] "GET /web/assets/126-b8c76a4/point_of_sale.assets.min.css HTTP/1.1" 200 - 4 0.018 6.215
+2024-11-17 14:27:14,346 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:14] "GET /web/webclient/translations/3c8cc55ff13c878f85c542ccb98fc00cfd476847?lang=fr_FR HTTP/1.1" 200 - 2 0.000 0.019
+2024-11-17 14:27:14,375 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:14] "GET /web/webclient/locale/fr_FR HTTP/1.1" 200 - 1 0.000 0.006
+2024-11-17 14:27:14,718 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:14] "GET /web/assets/128-b8c76a4/point_of_sale.assets.min.js HTTP/1.1" 200 - 4 0.018 7.323
+2024-11-17 14:27:14,744 16184 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:14] "GET /point_of_sale/static/src/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.005
+2024-11-17 14:27:14,746 16184 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:14] "GET /point_of_sale/static/src/img/touch-icon-196.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-11-17 14:27:14,937 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:14] "GET /web/webclient/translations/3c8cc55ff13c878f85c542ccb98fc00cfd476847?lang=fr_FR HTTP/1.1" 200 - 2 0.001 0.030
+2024-11-17 14:27:15,071 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:15] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.006 0.017
+2024-11-17 14:27:15,103 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:15] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2024-11-17 14:27:15,326 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:15] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.014 0.041
+2024-11-17 14:27:15,351 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:15] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.046 0.053
+2024-11-17 14:27:15,766 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:15] "POST /web/dataset/call_kw/pos.session/load_pos_data HTTP/1.1" 200 - 180 0.534 0.233
+2024-11-17 14:27:15,790 16184 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:15] "GET /point_of_sale/static/src/fonts/Inconsolata.otf HTTP/1.1" 200 - 0 0.000 0.004
+2024-11-17 14:27:15,832 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:15] "GET /web/image?model=res.company&id=1&field=logo HTTP/1.1" 200 - 5 0.005 0.025
+2024-11-17 14:27:15,879 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:15] "POST /web/dataset/call_kw/ir.model.data/check_object_reference HTTP/1.1" 200 - 3 0.004 0.006
+2024-11-17 14:27:15,896 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:15] "POST /web/dataset/call_kw/pos.session/get_pos_ui_product_product_by_params HTTP/1.1" 200 - 3 0.002 0.007
+2024-11-17 14:27:15,939 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:15] "POST /web/dataset/call_kw/barcode.nomenclature/read HTTP/1.1" 200 - 5 0.024 0.005
+2024-11-17 14:27:15,960 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:15] "POST /web/dataset/call_kw/barcode.rule/search_read HTTP/1.1" 200 - 3 0.003 0.008
+2024-11-17 14:27:16,188 16184 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:16] "GET /point_of_sale/static/src/img/backspace.png HTTP/1.1" 200 - 0 0.000 0.023
+2024-11-17 14:27:16,218 16184 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:16] "GET /web/static/fonts/lato/Lato-Bol-webfont.woff HTTP/1.1" 200 - 0 0.000 0.040
+2024-11-17 14:27:16,230 16184 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:16] "GET /point_of_sale/static/src/img/bc-arrow-big.png HTTP/1.1" 200 - 0 0.000 0.026
+2024-11-17 14:27:16,236 16184 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:16] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.067
+2024-11-17 14:27:16,250 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:16] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 200 - 15 0.056 0.027
+2024-11-17 14:27:16,261 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:16] "GET /web/image?model=product.product&field=image_128&id=4&unique=2024-11-17%2013:32:12 HTTP/1.1" 200 - 12 0.030 0.037
+2024-11-17 14:27:16,271 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:27:16] "GET /web/image?model=product.product&field=image_128&id=3&unique=2024-11-17%2013:31:04 HTTP/1.1" 200 - 12 0.064 0.027
+2024-11-17 14:29:28,012 16184 INFO pharmacie2 odoo.addons.point_of_sale.models.pos_order: Start PoS synchronisation #29805889 for PoS orders references: ['Commande 00001-002-0003'] (draft: False) 
+2024-11-17 14:29:28,251 16184 INFO pharmacie2 odoo.addons.point_of_sale.models.pos_order: Finish PoS synchronisation #29805889 with result: [{'id': 3, 'pos_reference': 'Commande 00001-002-0003', 'account_move': False}] 
+2024-11-17 14:29:28,269 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:29:28] "POST /web/dataset/call_kw/pos.order/create_from_ui HTTP/1.1" 200 - 59 0.196 0.067
+2024-11-17 14:29:40,026 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:29:40] "POST /web/dataset/call_kw/pos.session/get_closing_control_data HTTP/1.1" 200 - 17 0.028 0.023
+2024-11-17 14:29:40,097 16184 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 14:29:40] "GET /web/static/fonts/lato/Lato-LigIta-webfont.woff HTTP/1.1" 200 - 0 0.000 0.009
+2024-11-17 14:29:43,932 16184 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 14:29:43] "GET /web/static/img/openhand.cur HTTP/1.1" 200 - 0 0.000 0.007
+2024-11-17 14:29:45,846 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:29:45] "POST /web/dataset/call_kw/pos.session/post_closing_cash_details HTTP/1.1" 200 - 18 0.036 0.049
+2024-11-17 14:29:46,174 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:29:46] "POST /web/dataset/call_kw/pos.session/update_closing_control_state_session HTTP/1.1" 200 - 32 0.260 0.050
+2024-11-17 14:29:49,345 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:29:49] "POST /web/dataset/call_kw/pos.session/close_session_from_ui HTTP/1.1" 200 - 446 1.204 1.948
+2024-11-17 14:29:51,083 16184 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-3d94066/web.assets_backend.min.css 
+2024-11-17 14:29:59,648 16184 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [116] (from bundle web.assets_backend) 
+2024-11-17 14:30:00,564 16184 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-3d94066/web.assets_backend.min.js 
+2024-11-17 14:30:03,213 16184 INFO pharmacie2 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [117] (from bundle web.assets_backend) 
+2024-11-17 14:30:03,360 16184 INFO pharmacie2 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-11-17 14:30:03,362 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:03] "GET /web HTTP/1.1" 200 - 129 0.240 13.735
+2024-11-17 14:30:03,458 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:03] "GET /web/assets/129-3d94066/web.assets_backend.min.css HTTP/1.1" 200 - 6 0.009 0.015
+2024-11-17 14:30:03,460 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:03] "GET /web/assets/130-3d94066/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.005 0.017
+2024-11-17 14:30:03,461 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:03] "GET /web/assets/115-0627e5a/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.005 0.015
+2024-11-17 14:30:04,372 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:04] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.010 0.003
+2024-11-17 14:30:04,434 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:04] "POST /web/action/load HTTP/1.1" 200 - 10 0.042 0.013
+2024-11-17 14:30:04,434 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:04] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 15 0.033 0.020
+2024-11-17 14:30:04,435 16184 INFO ? werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:04] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.042
+2024-11-17 14:30:04,446 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:04] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.013 0.031
+2024-11-17 14:30:04,449 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:04] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.114 0.038
+2024-11-17 14:30:04,493 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:04] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2024-11-17 14:30:05,536 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:05] "GET /web HTTP/1.1" 200 - 71 0.056 1.031
+2024-11-17 14:30:07,361 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:07] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.007 0.006
+2024-11-17 14:30:07,394 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:07] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.004 0.013
+2024-11-17 14:30:07,398 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:07] "POST /mail/init_messaging HTTP/1.1" 200 - 30 0.082 0.026
+2024-11-17 14:30:07,406 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:07] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.021 0.016
+2024-11-17 14:30:07,411 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:07] "POST /web/action/load HTTP/1.1" 200 - 11 0.021 0.019
+2024-11-17 14:30:07,456 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:07] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2024-11-17 14:30:07,469 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:07] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.023 0.006
+2024-11-17 14:30:07,519 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:07] "POST /web/dataset/call_kw/pos.config/get_views HTTP/1.1" 200 - 28 0.035 0.038
+2024-11-17 14:30:07,566 16184 INFO pharmacie2 werkzeug: 127.0.0.1 - - [17/Nov/2024 14:30:07] "POST /web/dataset/call_kw/pos.config/web_search_read HTTP/1.1" 200 - 25 0.013 0.012
+2024-11-17 14:33:48,715 16184 INFO pharmacie2 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-11-17 14:33:48,747 16184 INFO pharmacie2 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 

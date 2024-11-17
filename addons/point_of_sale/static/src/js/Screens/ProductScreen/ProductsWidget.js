@@ -62,6 +62,12 @@ odoo.define('point_of_sale.ProductsWidget', function(require) {
             return this.env.pos.db.get_category_childs_ids(0).length === 0;
         }
         get shouldShowButton() {
+            if(this.productsToDisplay.length === 1 && this.productsToDisplay[0].barcode == this.searchWord){
+                console.log(this.productsToDisplay[0].barcode);
+                this.trigger('click-product', this.productsToDisplay[0]);
+                document.getElementById('clear-search-btn')?.click();
+                //this._clearSearch();
+            }
             return this.productsToDisplay.length === 0 && this.searchWord;
         }
         _switchCategory(event) {

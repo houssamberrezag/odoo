@@ -11,8 +11,11 @@ $o-gray-700: #4A4F59 !default;
 $o-gray-800: #353840 !default;
 $o-gray-900: #212529 !default;
 
-$o-enterprise-color: #714B67 !default;
-$o-enterprise-primary-color: #017e84 !default;
+//redox
+$o-enterprise-color: #916a1d !default;
+
+//$o-enterprise-color: #714B67 !default;
+$o-enterprise-primary-color: #916a1d !default;
 $o-enterprise-primary-color-light: scale-color($o-enterprise-primary-color, $lightness: 6%) !default;
 
 $o-brand-odoo: $o-enterprise-color !default;

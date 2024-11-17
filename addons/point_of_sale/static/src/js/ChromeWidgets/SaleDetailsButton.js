@@ -22,14 +22,63 @@ odoo.define('point_of_sale.SaleDetailsButton', function(require) {
                     pos: this.env.pos,
                 })
             );
-            const printResult = await this.env.proxy.printer.print_receipt(report);
-            if (!printResult.successful) {
-                await this.showPopup('ErrorPopup', {
-                    title: printResult.message.title,
-                    body: printResult.message.body,
-                });
+            
+            if (this.env.proxy.printer) {
+                const printResult = await this.env.proxy.printer.print_receipt(report);
+                if (!printResult.successful) {
+                    await this.showPopup('ErrorPopup', {
+                        title: printResult.message.title,
+                        body: printResult.message.body,
+                    });
+                }
+            }
+            else {
+                return await this._printWeb(report);
             }
         }
+        async _printWeb(printContents) {
+            try {
+                console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaa", printContents);
+                var html="<html>";
+                html+= printContents;
+
+                html+="</html>";
+
+                var printWin = window.open('','','left=0,top=0,width=1,height=1,toolbar=0,scrollbars=0,status  =0');
+                printWin.document.write(html);
+                printWin.document.close();
+                printWin.focus();
+                printWin.print();
+                printWin.close();
+                /* 
+                setTimeout(() => {
+                    window.print();
+                }, 2000); */
+                
+                //document.body.innerHTML = originalContents;
+                
+                return true;
+            } catch (_err) {
+                await this.showPopup('ErrorPopup', {
+                    title: this.env._t('Printing is not supported on some browsers'),
+                    body: this.env._t(
+                        'Printing is not supported on some browsers due to no default printing protocol ' +
+                            'is available. It is possible to print your tickets by making use of an IoT Box.'
+                    ),
+                });
+                return false;
+            }
+        }
+
+        printHtml(printContents) {
+            var originalContents = document.body.innerHTML;
+       
+            document.body.innerHTML = printContents;
+       
+            window.print();
+       
+            document.body.innerHTML = originalContents;
+       }
     }
     SaleDetailsButton.template = 'SaleDetailsButton';
 

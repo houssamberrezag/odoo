@@ -24,6 +24,7 @@ odoo.define('point_of_sale.ProductsWidgetControlPanel', function(require) {
         _clearSearch() {
             this.searchWordInput.el.value = '';
             this.trigger('clear-search');
+            this.searchWordInput.el.focus();
         }
         get displayCategImages() {
             return Object.values(this.env.pos.db.category_by_id).some(categ => categ.has_image) && !this.env.isMobile;

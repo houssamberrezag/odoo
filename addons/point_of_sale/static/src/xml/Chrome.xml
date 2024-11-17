@@ -7,18 +7,22 @@
             <div class="pos-topheader" t-att-class="{ oe_hidden: state.uiState !== 'READY' }">
                 <div t-if="tempScreen.isShown" class="block-top-header" />
                 <div class="pos-branding">
-                    <img t-if="!env.isMobile" class="pos-logo" t-on-click="() => this.trigger('toggle-debug-widget')"
-                         src="/point_of_sale/static/src/img/logo.png" alt="Logo" />
+                    <!-- <img t-if="!env.isMobile" class="pos-logo" t-on-click="() => this.trigger('toggle-debug-widget')"
+                         src="/point_of_sale/static/src/img/logo.png" alt="Logo" /> -->
                     <CashMoveButton t-if="showCashMoveButton()" />
-                    <TicketButton isTicketScreenShown="isTicketScreenShown" />
+                    <!-- <TicketButton isTicketScreenShown="isTicketScreenShown" /> -->
                 </div>
                 <div class="pos-rightheader">
+                    
                     <div class="status-buttons" t-if="state.uiState === 'READY'">
+                    <div class="cash-move-button" onClick="fullscreen();">
+                        <i class="fa fa-expand" aria-hidden="true"></i>
+                    </div>
                         <CashierName />
                         <SaleDetailsButton t-if="env.proxy.printer" isHeaderButton="true"/>
-                        <ProxyStatus t-if="env.pos.config.use_proxy" />
+                        <!-- <ProxyStatus t-if="env.pos.config.use_proxy" />
                         <CustomerFacingDisplayButton t-if="customerFacingDisplayButtonIsShown" />
-                        <SyncNotification />
+                        <SyncNotification /> -->
                         <HeaderButton />
                     </div>
                 </div>

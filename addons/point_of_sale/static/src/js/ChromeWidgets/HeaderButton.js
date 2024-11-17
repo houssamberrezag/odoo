@@ -3,7 +3,8 @@ odoo.define('point_of_sale.HeaderButton', function(require) {
 
     const PosComponent = require('point_of_sale.PosComponent');
     const Registries = require('point_of_sale.Registries');
-    const { isConnectionError } = require('point_of_sale.utils');
+    const { ConnectionLostError, ConnectionAbortedError } = require('@web/core/network/rpc_service')
+    const { identifyError } = require('point_of_sale.utils');
 
     // Previously HeaderButtonWidget
     // This is the close session button
@@ -13,7 +14,7 @@ odoo.define('point_of_sale.HeaderButton', function(require) {
                 const info = await this.env.pos.getClosePosInfo();
                 this.showPopup('ClosePosPopup', { info: info, keepBehind: true });
             } catch (e) {
-                if (isConnectionError(e)) {
+                if (identifyError(e) instanceof ConnectionAbortedError||ConnectionLostError) {
                     this.showPopup('OfflineErrorPopup', {
                         title: this.env._t('Network Error'),
                         body: this.env._t('Please check your internet connection and try again.'),

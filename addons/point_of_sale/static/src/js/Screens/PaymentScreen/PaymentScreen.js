@@ -3,13 +3,12 @@ odoo.define('point_of_sale.PaymentScreen', function (require) {
 
     const { parse } = require('web.field_utils');
     const PosComponent = require('point_of_sale.PosComponent');
-    const { useErrorHandlers, useAsyncLockedMethod } = require('point_of_sale.custom_hooks');
+    const { useErrorHandlers } = require('point_of_sale.custom_hooks');
     const NumberBuffer = require('point_of_sale.NumberBuffer');
     const { useListener } = require("@web/core/utils/hooks");
     const Registries = require('point_of_sale.Registries');
     const { isConnectionError } = require('point_of_sale.utils');
     const utils = require('web.utils');
-    const round_pr = utils.round_precision;
 
     class PaymentScreen extends PosComponent {
         setup() {
@@ -28,9 +27,32 @@ odoo.define('point_of_sale.PaymentScreen', function (require) {
             useErrorHandlers();
             this.payment_interface = null;
             this.error = false;
-            this.validateOrder = useAsyncLockedMethod(this.validateOrder);
+
+            //perform Click : selectionner le mode de paiement par défault
+            //redox
+            this.deferredClickPaymentMethodButton();
+
+
         }
 
+        deferredClickPaymentMethodButton() {
+            const clickButton = () => {
+                $(document).ready(function() {
+                    setTimeout(function() {
+                        $('.paymentmethod').click();
+                    }, 100);
+                });
+       
+                };
+    
+            // Check if the necessary components are fully loaded
+            if (document.readyState === 'complete') {
+                clickButton();
+            } else {
+                window.addEventListener('load', clickButton);
+            }
+        }
+    
         showMaxValueError() {
             this.showPopup('ErrorPopup', {
                 title: this.env._t('Maximum value reached'),
@@ -45,7 +67,6 @@ odoo.define('point_of_sale.PaymentScreen', function (require) {
                 // When the buffer is updated, trigger this event.
                 // Note that the component listens to it.
                 triggerAtInput: 'update-selected-paymentline',
-                useWithBarcode: true,
             };
             // Check if pos has a cash payment method
             const hasCashPaymentMethod = this.payment_methods_from_config.some(
@@ -83,10 +104,6 @@ odoo.define('point_of_sale.PaymentScreen', function (require) {
         }
         addNewPaymentLine({ detail: paymentMethod }) {
             // original function: click_paymentmethods
-            if(!this.env.pos.get_order().check_paymentlines_rounding()) {
-                this._display_popup_error_paymentlines_rounding();
-                return false;
-            }
             let result = this.currentOrder.add_paymentline(paymentMethod);
             if (result){
                 NumberBuffer.reset();
@@ -98,36 +115,6 @@ odoo.define('point_of_sale.PaymentScreen', function (require) {
                     body: this.env._t('There is already an electronic payment in progress.'),
                 });
                 return false;
-            }
-        }
-        _display_popup_error_paymentlines_rounding() {
-            if(this.env.pos.config.cash_rounding) {
-                const orderlines = this.paymentLines;
-                const cash_rounding = this.env.pos.cash_rounding[0].rounding;
-                const default_rounding = this.env.pos.currency.rounding;
-                for(var id in orderlines) {
-                    var line = orderlines[id];
-                    var diff = round_pr(round_pr(line.amount, cash_rounding) - round_pr(line.amount, default_rounding), default_rounding);
-
-                    if(diff && (line.payment_method.is_cash_count || !this.env.pos.config.only_round_cash_method)) {
-                        const upper_amount = round_pr(round_pr(line.amount, default_rounding) + cash_rounding / 2, cash_rounding)
-                        const lower_amount = round_pr(round_pr(line.amount, default_rounding) - cash_rounding / 2, cash_rounding)
-                        this.showPopup("ErrorPopup", {
-                            title: this.env._t("Rounding error in payment lines"),
-                            body: _.str.sprintf(
-                                this.env._t(
-                                    "The amount of your payment lines must be rounded to validate the transaction.\n" +
-                                    "The rounding precision is %s so you should set %s or %s as payment amount instead of %s."
-                                ),
-                                cash_rounding.toFixed(this.env.pos.currency.decimal_places),
-                                lower_amount.toFixed(this.env.pos.currency.decimal_places),
-                                upper_amount.toFixed(this.env.pos.currency.decimal_places),
-                                line.amount.toFixed(this.env.pos.currency.decimal_places)
-                            ),
-                        });
-                        return;
-                    }
-                }
             }
         }
         _updateSelectedPaymentline() {
@@ -210,7 +197,10 @@ odoo.define('point_of_sale.PaymentScreen', function (require) {
         async validateOrder(isForceValidate) {
             if(this.env.pos.config.cash_rounding) {
                 if(!this.env.pos.get_order().check_paymentlines_rounding()) {
-                    this._display_popup_error_paymentlines_rounding();
+                    this.showPopup('ErrorPopup', {
+                        title: this.env._t('Rounding error in payment lines'),
+                        body: this.env._t("The amount of your payment lines must be rounded to validate the transaction."),
+                    });
                     return;
                 }
             }
@@ -223,29 +213,23 @@ odoo.define('point_of_sale.PaymentScreen', function (require) {
             }
         }
         async _finalizeValidation() {
-            if ((this.currentOrder.is_paid_with_cash() || this.currentOrder.get_change()) && this.env.pos.config.iface_cashdrawer && this.env.proxy && this.env.proxy.printer) {
+            if ((this.currentOrder.is_paid_with_cash() || this.currentOrder.get_change()) && this.env.pos.config.iface_cashdrawer) {
                 this.env.proxy.printer.open_cashbox();
             }
 
             this.currentOrder.initialize_validation_date();
-            for (let line of this.paymentLines) {
-                if (!line.amount === 0) {
-                     this.currentOrder.remove_paymentline(line);
-                }
-            }
             this.currentOrder.finalized = true;
 
             let syncOrderResult, hasError;
 
             try {
-                this.env.services.ui.block()
                 // 1. Save order to server.
                 syncOrderResult = await this.env.pos.push_single_order(this.currentOrder);
 
                 // 2. Invoice.
-                if (this.shouldDownloadInvoice() && this.currentOrder.is_to_invoice()) {
+                if (this.currentOrder.is_to_invoice()) {
                     if (syncOrderResult.length) {
-                        await this.env.legacyActionManager.do_action(this.env.pos.invoiceReportAction, {
+                        await this.env.legacyActionManager.do_action('account.account_invoices', {
                             additional_context: {
                                 active_ids: [syncOrderResult[0].account_move],
                             },
@@ -269,8 +253,6 @@ odoo.define('point_of_sale.PaymentScreen', function (require) {
                     }
                 }
             } catch (error) {
-                // unblock the UI before showing the error popup
-                this.env.services.ui.unblock();
                 if (error.code == 700 || error.code == 701)
                     this.error = true;
 
@@ -292,7 +274,6 @@ odoo.define('point_of_sale.PaymentScreen', function (require) {
                     }
                 }
             } finally {
-                this.env.services.ui.unblock()
                 // Always show the next screen regardless of error since pos has to
                 // continue working even offline.
                 this.showScreen(this.nextScreen);
@@ -317,24 +298,6 @@ odoo.define('point_of_sale.PaymentScreen', function (require) {
                 }
             }
         }
-        /**
-         * This method is meant to be overriden by localization that do not want to print the invoice pdf
-         * every time they create an account move. For example, it can be overriden like this:
-         * ```
-         * shouldDownloadInvoice() {
-         *     const currentCountry = ...
-         *     if (currentCountry.code === 'FR') {
-         *         return false;
-         *     } else {
-         *         return super.shouldDownloadInvoice(); // or this._super(...arguments) depending on the odoo version.
-         *     }
-         * }
-         * ```
-         * @returns {boolean} true if the invoice pdf should be downloaded
-         */
-        shouldDownloadInvoice() {
-            return true;
-        }
         get nextScreen() {
             return !this.error? 'ReceiptScreen' : 'ProductScreen';
         }
@@ -344,18 +307,6 @@ odoo.define('point_of_sale.PaymentScreen', function (require) {
                     title: this.env._t('Empty Order'),
                     body: this.env._t(
                         'There must be at least one product in your order before it can be validated and invoiced.'
-                    ),
-                });
-                return false;
-            }
-
-            if (this.currentOrder.electronic_payment_in_progress()) {
-                this.showPopup('ErrorPopup', {
-                    title: this.env._t('Pending Electronic Payments'),
-                    body: this.env._t(
-                        'There is at least one pending electronic payment.\n' +
-                        'Please finish the payment with the terminal or ' +
-                        'cancel it then remove the payment line.'
                     ),
                 });
                 return false;

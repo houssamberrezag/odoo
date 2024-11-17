@@ -2,6 +2,9 @@
 <templates id="template" xml:space="preserve">
 
     <t t-name="SyncNotification" owl="1">
+
+       <!-- 
+        redox
         <div class="oe_status" t-on-click="onClick">
             <span t-if="env.pos.synch.pending" class="js_msg">
                 <t t-esc="env.pos.synch.pending" />
@@ -24,6 +27,7 @@
                    title="Synchronisation Error"></i>
             </div>
         </div>
+        -->
     </t>
 
 </templates>
